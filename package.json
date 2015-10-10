@@ -1,0 +1,27 @@
+{
+  "name": "say-again.js",
+  "version": "1.0.0",
+  "description": "Forked from say.js to include playback speed controll.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronagray/say-again.git"
+  },
+  "keywords": [
+    "say",
+    "read",
+    "voice"
+  ],
+  "author": "Aaron Gray <aaron@hellometa.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronagray/say-again/issues"
+  },
+  "homepage": "https://github.com/aaronagray/say-again#readme"
+}
