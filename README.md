@@ -4,10 +4,10 @@
 npm install say-again
 ```
 
-# usage - Mac OS voices
+# Usage
 
 ```javascript
-var say = require('say');
+var say = require('say-again');
 
 // no callback, fire and forget
 say.speak('Alex', 'whats up, dog?');
@@ -32,14 +32,7 @@ translate.text('Yo quero tacos por favor', function(result){
 });
 ```
 
-
-# Usage - Linux
-
-Linux support involves the use of [Festival](http://www.cstr.ed.ac.uk/projects/festival/), which uses decidedly less friendly names for its voices.  Voices for
-Festival sometimes need to be installed separately - you can check which voices are available by starting up Festival in interactive mode, typing `(voice_`,
-and pressing `TAB`.  Then take the name of the voice you'd like to try, minus the parentheses, and pass it in to say.js.
-
-## voices
+## Voices
 ### girls
 - Agnes
 - Kathy
@@ -70,16 +63,6 @@ and pressing `TAB`.  Then take the name of the voice you'd like to try, minus th
 - Whisper
 - Zarvox
 
-### fun facts
-
-`say.speak()` calls are asynchronous, lol ^_^
-
-## translation provided by <a href = "http://github.com/marak/translate.js">translate.js</a>
-
-## languages
-
-<table><tbody><tr><td style="white-space: nowrap;">Afrikaans<br>Albanian<br>Arabic<br>Armenian<br>Azerbaijani<br>Basque<br>Belarusian<br>Bulgarian<br>Catalan<br>Chinese</td><td style="white-space: nowrap;">Croatian<br>Czech<br>Danish<br>Dutch<br>English<br>Estonian<br>Filipino<br>Finnish<br>French<br>Galician</td><td style="white-space: nowrap;">Georgian<br>German<br>Greek<br>Haitian Creole<br>Hebrew<br>Hindi<br>Hungarian<br>Icelandic<br>Indonesian<br>Irish</td><td style="white-space: nowrap;">Italian<br>Japanese<br>Korean<br>Latvian<br>Lithuanian<br>Macedonian<br>Malay<br>Maltese<br>Norwegian<br>Persian</td><td style="white-space: nowrap;">Polish<br>Portuguese<br>Romanian<br>Russian<br>Serbian<br>Slovak<br>Slovenian<br>Spanish<br>Swahili<br>Swedish</td><td style="white-space: nowrap;">Thai<br>Turkish<br>Ukrainian<br>Urdu<br>Vietnamese<br>Welsh<br>Yiddish</td></tr></tbody></table>
-
 ### Requirements
 
-Mac OS (comes with say) or Linux with Festival
+Mac OS
